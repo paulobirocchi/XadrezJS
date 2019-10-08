@@ -1,0 +1,35 @@
+td {
+	width:24pt;
+	height:24pt;
+	border-collapse:collapse;
+	border-color: black;
+	border-style: solid;
+	border-width: 1pt 0 0 1pt;
+	font-size:150%;
+}
+
+table {
+	text-align:center;
+	border-spacing:0;
+	font-family: 'Arial Unicode MS', serif;
+	border-collapse:collapse;
+	border-color: black;
+	border-style: solid;
+	border-width: 1pt 1pt 1pt 1pt;
+}
+
+#pawn-promotion-option {
+	width: 480px;
+	height: 480px;
+	line-height: 480px;
+	position: absolute;
+	background: transparent;
+	text-align: center;
+	font-size: 90px;
+	cursor: default;
+	z-index: 10;
+}
+
+#pawn-promotion-option .option {
+	cursor: pointer;
+}
